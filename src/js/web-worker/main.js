@@ -29,5 +29,5 @@ window.addEventListener('load', () => {
     document.forms[0].addEventListener('submit', function (e) {
         postMatrixToWorker(JSON.parse(this['initial-data'].value));
         e.preventDefault();
-    })
+    });
 });
